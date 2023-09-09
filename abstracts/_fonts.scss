@@ -1,14 +1,30 @@
+//////////////////////////////
+/// FONT FAMILY
+//////////////////////////////
+
 $fontFamily: sans-serif;
 
-// LARGE
-$fontXlarge: bold 26px/28px $fontFamily;
-$fontLarge: bold 22px/24px $fontFamily;
-$fontHeader: bold 18px/20px $fontFamily;
 
-// MEDIUM
-$fontNormal: normal 16px/18px $fontFamily;
-$fontInput: 600 16px/18px $fontFamily;
-$fontError: bold 16px/16px $fontFamily;
+//////////////////////////////
+/// LARGE
+//////////////////////////////
 
-// SMALL
+$fontXLarge: bold 28px/30px $fontFamily;
+$fontLargeBold: bold 22px/24px $fontFamily;
+$fontLarge: normal 22px/24px $fontFamily;
+
+
+//////////////////////////////
+/// MEDIUM
+//////////////////////////////
+
+$fontNormal: normal 16px/26px $fontFamily;
+$fontFeedback: bold 16px/16px $fontFamily;
+
+
+//////////////////////////////
+/// SMALL
+//////////////////////////////
+
 $fontSmall: normal 14px/16px $fontFamily;
+$fontXSmall: normal 12px/14px $fontFamily;
